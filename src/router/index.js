@@ -9,8 +9,6 @@ const router = new VueRouter({
   routes
 })
 
-if (process.env.NODE_ENV === "production") router.base = window.location.pathname
-
 //前置导航守卫
 router.beforeEach((to, from, next) => {
 	const app = router.app
