@@ -1,5 +1,5 @@
 module.exports = {
-  baseUrl: process.env.NODE_ENV === 'production'
-    ? '/system-admin/'
-    : '/'
+	baseUrl: process.env.NODE_ENV === 'production'
+		? '/system-admin/'
+		: '/',
 }
